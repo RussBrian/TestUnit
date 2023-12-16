@@ -1,5 +1,5 @@
 const obtenerMensaje = () => {
-    return 'Hola Mundo';
+    return 'Hola';
 }
 
 module.exports = obtenerMensaje;
