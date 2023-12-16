@@ -3,7 +3,11 @@ name: Pruebas unitarias
 on:
   push:
     branches:
+      - '*'
+  pull_request:
+    branches:
       - main
+    
 
 jobs:
   test:
